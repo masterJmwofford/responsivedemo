@@ -18,22 +18,41 @@
     justify-content: space-around;
     width: 40%;
   }
-  .splash1{
+  .splash1 {
     /* border:solid lime; */
-    width:33%
-}
-.mainTitle{
-    padding:1em;
+    width: 33%;
+  }
+  .mainTitle {
+    padding: 1em;
     /* border:solid orange; */
-    display:block;
-    width:33%
-
-}
-.splash2{
+    display: block;
+    width: 33%;
+  }
+  .splash2 {
     /* border:solid purple; */
-    display:block;
-    width:33%
-}
+    display: block;
+    width: 33%;
+  }
+  .infoBox {
+    /* border:solid yellow; */
+    text-align: center;
+    font-family: abril fatface;
+    margin: 1em;
+  }
+  .midContainer {
+    border: solid red;
+    border-width: 0.2px;
+    /* height: 55vh; */
+    padding: 2em;
+    margin: 1em;
+    display: flex;
+  }
+  .secret {
+    border: solid lime;
+    display: block;
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /* -----------------------------------------------------[End Of Desktop] */
@@ -56,20 +75,40 @@
     justify-content: space-around;
     width: 30%;
   }
-  .splash1{
+  .splash1 {
     /* border:solid lime; */
-    width:60%;
-}
-.mainTitle{
-    padding:1em;
+    width: 60%;
+  }
+  .mainTitle {
+    padding: 1em;
     /* border:solid orange; */
-    display:block;
-    width:40%;
-}
-.splash2{
+    display: block;
+    width: 40%;
+  }
+  .splash2 {
     /* border:solid purple; */
-    display:none;
-}
+    display: none;
+  }
+  .infoBox {
+    /* border:solid yellow; */
+    text-align: center;
+    font-family: abril fatface;
+    margin: 1em;
+  }
+  .midContainer {
+    border: solid red;
+    border-width: 0.2px;
+    /* height: 55vh; */
+    padding: 2em;
+    margin: 1em;
+    display: flex;
+  }
+  .secret {
+    border: solid lime;
+    display: none;
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /* -----------------------------------------------------[End Of MidView] */
@@ -92,19 +131,39 @@
     justify-content: space-around;
     width: 60%;
   }
-  .splash1{
+  .splash1 {
     /* border:solid lime; */
-    width:100%
-}
-.mainTitle{
-    padding:1em;
+    width: 100%;
+  }
+  .mainTitle {
+    padding: 1em;
     /* border:solid orange; */
-    display:none;
-}
-.splash2{
+    display: none;
+  }
+  .splash2 {
     /* border:solid purple; */
-    display:none;
-}
+    display: none;
+  }
+  .infoBox {
+    /* border: solid yellow; */
+    text-align: center;
+    font-family: abril fatface;
+    margin: 1em;
+  }
+  .midContainer {
+    border: solid red;
+    border-width: 0.2px;
+    /* height: 55vh; */
+    padding: 2em;
+    margin: 1em;
+    display: block;
+  }
+  .secret {
+    border: solid lime;
+    display: none;
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /* -----------------------------------------------------[End Of Mobile] */
@@ -127,14 +186,7 @@
   border-width: 0.2px;
   /* height: 55vh; */
   margin: 1em;
-  display:flex;
-}
-
-.midContainer {
-  border: solid red;
-  border-width: 0.2px;
-  height: 55vh;
-  margin: 1em;
+  display: flex;
 }
 
 .logoContainer {
@@ -154,16 +206,20 @@
   width: 30px;
 }
 
-.welcome{
-    text-align:center;
+.welcome {
+  text-align: center;
 }
-.welcomeSm{
-    text-align: right;
+.welcomeSm {
+  text-align: right;
 }
-.welcomeBtn{
-    margin:3em;
-    font-size:15px;
-    border-radius:12px;
-    background-color:black;
-    color: white;
+.welcomeBtn {
+  margin: 3em;
+  font-size: 15px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+}
+
+.midPic {
+  width: 100%;
 }
